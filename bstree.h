@@ -16,6 +16,7 @@
 class BSTree { 
   private:  
  	TreeNodeptr root ;
+ 	int sizeCount(TreeNodeptr node,int &count); 
  	// You need to add private functions to implement the recursive solutions.
   public:  
   	BSTree() ;  // Initializes root to NULL.  
